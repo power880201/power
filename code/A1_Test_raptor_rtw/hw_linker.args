@@ -1,0 +1,31 @@
+"./objs/A1_Test.o"
+"./objs/A1_Test_data.o"
+"./objs/HCU_LIB.o"
+"./objs/Timer_BGND_G6Wyo.o"
+"./objs/Timer_ooqlV.o"
+"./objs/XCP_App.o"
+"./objs/can_4423__0004.o"
+"./objs/can_4424__0004.o"
+"./objs/data.o"
+"./objs/raptor_app.o"
+"./objs/raptor_lin_general.o"
+"./objs/rtGetInf.o"
+"./objs/rtGetNaN.o"
+"./objs/rt_nonfinite.o"
+"./objs/rt_zcfcn.o"
+"./objs/xcp_protocol.o"
+-L"C:/Program Files (x86)/NewEagle/Raptor/2021b_2.0.14465/GCM-5743R/lib/"
+-L"C:/Program Files (x86)/NewEagle/Raptor/2021b_2.0.14465/GCM-5743R/lib/Object_files/"
+-N
+-T
+"./57xx_app.ld"
+-gdwarf2
+-export-dynamic
+-Wl,-Map,"A1_Test.map"
+-Xlinker
+--print-gc-sections
+-mcpu=e200z4
+-specs=ewl_c9x_noio.specs
+--sysroot="C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2"
+-l:xcp.a
+-l:RCM-5743R-080-2005.a

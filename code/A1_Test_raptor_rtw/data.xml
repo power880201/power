@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <Data>
+        <Item Name="FgndTasksStopped">
+            <Block>&lt;S114&gt;/raptor_data_def</Block>
+            <Variable>RAMVariables.FgndTasksStopped</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>1</Max>
+            <Unit>Bool</Unit>
+            <Help>Boolean indicating foreground tasks stopped</Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>Diagnostics|PowerUp_Down</Function>
+        </Item>
+        <Item Name="KeySwHiTimeThr">
+            <Block>&lt;S113&gt;/raptor_adjustment3</Block>
+            <Variable>EEVariables_DEFAULT.KeySwHiTimeThr</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit>sec</Unit>
+            <Help>State high time threshold</Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>Diagnostics|PowerUp_Down</Function>
+        </Item>
+        <Item Name="KeySwLoTimeThr">
+            <Block>&lt;S113&gt;/raptor_adjustment4</Block>
+            <Variable>EEVariables_DEFAULT.KeySwLoTimeThr</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit>sec</Unit>
+            <Help>State low time threshold</Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>Diagnostics|PowerUp_Down</Function>
+        </Item>
+        <Item Name="KeySw_Bgnd">
+            <Block>&lt;S112&gt;/raptor_data_def</Block>
+            <Variable>RAMVariables.KeySw_Bgnd</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>1</Max>
+            <Unit>Bool</Unit>
+            <Help>Key switch reading from background task</Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>Diagnostics|PowerUp_Down</Function>
+        </Item>
+        <Item Name="KeepModuleOn">
+            <Block>&lt;S112&gt;/raptor_data_def1</Block>
+            <Variable>RAMVariables.KeepModuleOn</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>1</Max>
+            <Unit>Bool</Unit>
+            <Help>Boolean indicating module to be kept on</Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>Diagnostics|PowerUp_Down</Function>
+        </Item>
+        <Item Name="UseTTC_switch">
+            <Block>&lt;S6&gt;/raptor_adjustment</Block>
+            <Variable>EEVariables_DEFAULT.UseTTC_switch</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Cutin_strategy</Function>
+        </Item>
+        <Item Name="ACCSetSpeed_kph">
+            <Block>&lt;S1&gt;/raptor_adjustment2</Block>
+            <Variable>EEVariables_DEFAULT.ACCSetSpeed_kph</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Est_switch">
+            <Block>&lt;S1&gt;/raptor_adjustment4</Block>
+            <Variable>EEVariables_DEFAULT.Est_switch</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="OnlyPY_signal">
+            <Block>&lt;S1&gt;/raptor_adjustment1</Block>
+            <Variable>EEVariables_DEFAULT.OnlyPY_signal</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Cut_in_Secenary_flg">
+            <Block>&lt;S45&gt;/raptor_adjustment</Block>
+            <Variable>EEVariables_DEFAULT.Cut_in_Secenary_flg</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem11|Subsystem8</Function>
+        </Item>
+        <Item Name="Kalman_trig">
+            <Block>&lt;S1&gt;/raptor_adjustment7</Block>
+            <Variable>EEVariables_DEFAULT.Kalman_trig</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Long_trig">
+            <Block>&lt;S1&gt;/raptor_adjustment6</Block>
+            <Variable>EEVariables_DEFAULT.Long_trig</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Q_th">
+            <Block>&lt;S15&gt;/raptor_adjustment7</Block>
+            <Variable>EEVariables_DEFAULT.Q_th</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="R_th">
+            <Block>&lt;S15&gt;/raptor_adjustment8</Block>
+            <Variable>EEVariables_DEFAULT.R_th</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="Q_acc">
+            <Block>&lt;S15&gt;/raptor_adjustment</Block>
+            <Variable>EEVariables_DEFAULT.Q_acc</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="R_acc">
+            <Block>&lt;S15&gt;/raptor_adjustment1</Block>
+            <Variable>EEVariables_DEFAULT.R_acc</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="TTC">
+            <Block>&lt;S1&gt;/raptor_measurement</Block>
+            <Variable>RAMVariables.TTC</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RR_new">
+            <Block>&lt;S1&gt;/raptor_measurement1</Block>
+            <Variable>RAMVariables.RR_new</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Jx_HV_mps3">
+            <Block>&lt;S1&gt;/raptor_measurement10</Block>
+            <Variable>RAMVariables.Jx_HV_mps3</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="TH">
+            <Block>&lt;S1&gt;/raptor_measurement11</Block>
+            <Variable>RAMVariables.TH</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Acc_Mode">
+            <Block>&lt;S1&gt;/raptor_measurement13</Block>
+            <Variable>RAMVariables.Acc_Mode</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>1</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Driving_Torque">
+            <Block>&lt;S1&gt;/raptor_measurement14</Block>
+            <Variable>RAMVariables.Driving_Torque</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Braking_Pressure_RR">
+            <Block>&lt;S1&gt;/raptor_measurement15</Block>
+            <Variable>RAMVariables.Braking_Pressure_RR</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="VACCTargetVehAssigned_flg">
+            <Block>&lt;S1&gt;/raptor_measurement19</Block>
+            <Variable>RAMVariables.VACCTargetVehAssigned_flg</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RR_est">
+            <Block>&lt;S1&gt;/raptor_measurement2</Block>
+            <Variable>RAMVariables.RR_est</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RV_est">
+            <Block>&lt;S1&gt;/raptor_measurement3</Block>
+            <Variable>RAMVariables.RV_est</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RA_est">
+            <Block>&lt;S1&gt;/raptor_measurement4</Block>
+            <Variable>RAMVariables.RA_est</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="cut_in_flg">
+            <Block>&lt;S1&gt;/raptor_measurement5</Block>
+            <Variable>RAMVariables.cut_in_flg</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RAx">
+            <Block>&lt;S1&gt;/raptor_measurement6</Block>
+            <Variable>RAMVariables.RAx</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RVx">
+            <Block>&lt;S1&gt;/raptor_measurement7</Block>
+            <Variable>RAMVariables.RVx</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="RR">
+            <Block>&lt;S1&gt;/raptor_measurement8</Block>
+            <Variable>RAMVariables.RR</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Jy_HV_mps3">
+            <Block>&lt;S1&gt;/raptor_measurement9</Block>
+            <Variable>RAMVariables.Jy_HV_mps3</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Path_selector">
+            <Block>&lt;S22&gt;/raptor_adjustment</Block>
+            <Variable>EEVariables_DEFAULT.Path_selector</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Camera|Subsystem6|Subsystem9</Function>
+        </Item>
+        <Item Name="C0">
+            <Block>&lt;S19&gt;/raptor_measurement</Block>
+            <Variable>RAMVariables.C0</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Camera|Subsystem6</Function>
+        </Item>
+        <Item Name="V">
+            <Block>&lt;S8&gt;/raptor_adjustment6</Block>
+            <Variable>EEVariables_DEFAULT.V</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0.0</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="Lat_trig">
+            <Block>&lt;S1&gt;/raptor_adjustment5</Block>
+            <Variable>EEVariables_DEFAULT.Lat_trig</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>1</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="Q_D">
+            <Block>&lt;S8&gt;/raptor_adjustment</Block>
+            <Variable>EEVariables_DEFAULT.Q_D</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="R_D">
+            <Block>&lt;S8&gt;/raptor_adjustment1</Block>
+            <Variable>EEVariables_DEFAULT.R_D</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="Q_K">
+            <Block>&lt;S8&gt;/raptor_adjustment4</Block>
+            <Variable>EEVariables_DEFAULT.Q_K</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="R_K">
+            <Block>&lt;S8&gt;/raptor_adjustment5</Block>
+            <Variable>EEVariables_DEFAULT.R_K</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="SW_Dynematic">
+            <Block>&lt;S8&gt;/raptor_measurement1</Block>
+            <Variable>RAMVariables.SW_Dynematic</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="latched">
+            <Block>&lt;S8&gt;/raptor_measurement2</Block>
+            <Variable>RAMVariables.latched</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|MPC_Dynematc1</Function>
+        </Item>
+        <Item Name="Driving_Torque_b">
+            <Block>&lt;S11&gt;/raptor_measurement</Block>
+            <Variable>RAMVariables.Driving_Torque_b</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem10</Function>
+        </Item>
+        <Item Name="axc">
+            <Block>&lt;S11&gt;/raptor_measurement1</Block>
+            <Variable>RAMVariables.axc</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem10</Function>
+        </Item>
+        <Item Name="TH_acc">
+            <Block>&lt;S15&gt;/raptor_measurement</Block>
+            <Variable>RAMVariables.TH_acc</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="Desired_distance">
+            <Block>&lt;S15&gt;/raptor_measurement1</Block>
+            <Variable>RAMVariables.Desired_distance</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="Spd_acc">
+            <Block>&lt;S15&gt;/raptor_measurement2</Block>
+            <Variable>RAMVariables.Spd_acc</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground|Subsystem8</Function>
+        </Item>
+        <Item Name="LaneAvail_flg">
+            <Block>&lt;S1&gt;/raptor_adjustment3</Block>
+            <Variable>EEVariables_DEFAULT.LaneAvail_flg</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help></Help>
+			<Format>5.2</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>A1_Test|Foreground</Function>
+        </Item>
+        <Item Name="CAN1__XCP_BC_ID">
+            <Block>&lt;S3&gt;/BC_ID</Block>
+            <Variable>EEVariables_DEFAULT.CAN1__XCP_BC_ID</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>CAN message ID used to identify XCP targets on the CAN bus. This should be the same for all ECUs on the CAN bus. This is how Raptor-Cal discovers ECUs on the CAN bus.</Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>System|XCP</Function>
+        </Item>
+        <Item Name="CAN1__XCP_RX_ID">
+            <Block>&lt;S3&gt;/RX_ID</Block>
+            <Variable>EEVariables_DEFAULT.CAN1__XCP_RX_ID</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>CAN message ID that the module will receive CMD and STIM commands from the calibration tool on.</Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>System|XCP</Function>
+        </Item>
+        <Item Name="CAN1__XCP_TX_ID">
+            <Block>&lt;S3&gt;/TX_ID</Block>
+            <Variable>EEVariables_DEFAULT.CAN1__XCP_TX_ID</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>CAN message ID that the module will send RES, ERR, EV, SERV and DAQ commands to the calibration tool on.</Help>
+			<Format>5.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <Function>System|XCP</Function>
+        </Item>
+        <Item Name="ModelName">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.ModelName</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>7</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Name of model</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="BuildNumber">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.BuildNumber</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Model build number.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+        </Item>
+        <Item Name="MatlabVersion">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.MatlabVersion</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>13</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Matlab version used for build.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="RaptorVersion">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.RaptorVersion</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>20</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Raptor version used for build.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="SwIdTxt">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.SwIdTxt</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>11</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Software name for this build.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="CalIdTxt">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.CalIdTxt</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>15</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Calibration ID for this Software Package.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="BuildUID">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.BuildUID</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>21</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Unique build ID for this software.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="IdTableRev">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.IdTableRev</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>IdTableRev for the model (XCP device ids).</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>uint32</DisplayType>
+        </Item>
+        <Item Name="HardwareType">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.HardwareType</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Hardware type for the target.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>uint32</DisplayType>
+        </Item>
+        <Item Name="DateStamp">
+            <Block>&lt;Root&gt;/raptor_target_def</Block>
+            <Variable>CONSTVariables.DateStamp</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>20</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>Date and time the model was built.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>1</ReadOnly>
+            <DisplayType>ASCII</DisplayType>
+        </Item>
+        <Item Name="CAN1__XCP_Security">
+            <Block>XCP_Security</Block>
+            <Variable>EEVariables_DEFAULT.CAN1__XCP_Security</Variable>	
+            <Type>Adjustment</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>65535</Max>
+            <Unit>enum</Unit>
+            <Help>Calibration to change XCP security, takes effect at next power-up.</Help>
+			<Format>6.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <EnumNames>
+				<EnumItem Value = "0">None</EnumItem>
+				<EnumItem Value = "20037">Standard</EnumItem>
+            </EnumNames>			
+            <Function>System | XCP</Function>
+        </Item>
+        <Item Name="Reset_History">
+            <Block>Platform Variable</Block>
+            <Variable>eepage0.ResetHist</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>10</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>255</Max>
+            <Unit>Sec</Unit>
+            <Help>Reset History.</Help>
+			<Format>4.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <EnumNames>
+				<EnumItem Value = "0">UNKNOWN_RESET</EnumItem>
+				<EnumItem Value = "160">POWER_OFF_RESET</EnumItem>
+				<EnumItem Value = "176">BOOT_REQUEST</EnumItem>
+				<EnumItem Value = "208">PROCESSOR_EXCEPTION</EnumItem>
+				<EnumItem Value = "209">UNHANDLED_EXCPTION</EnumItem>
+				<EnumItem Value = "210">WATCHDOG_EXCPTION</EnumItem>
+				<EnumItem Value = "224">IVOR0_TRAP</EnumItem>
+				<EnumItem Value = "225">MACHINE_CHECK</EnumItem>
+				<EnumItem Value = "226">IVOR2_TRAP</EnumItem>
+				<EnumItem Value = "227">IVOR3_TRAP</EnumItem>
+				<EnumItem Value = "229">IVOR5_TRAP</EnumItem>
+				<EnumItem Value = "230">IVOR6_TRAP</EnumItem>
+				<EnumItem Value = "231">IVOR7_TRAP</EnumItem>
+				<EnumItem Value = "232">IVOR8_TRAP</EnumItem>
+				<EnumItem Value = "233">IVOR9_TRAP</EnumItem>
+				<EnumItem Value = "234">IVOR10_TRAP</EnumItem>
+				<EnumItem Value = "235">IVOR11_TRAP</EnumItem>
+				<EnumItem Value = "236">IVOR12_TRAP</EnumItem>
+				<EnumItem Value = "237">IVOR13_TRAP</EnumItem>
+				<EnumItem Value = "238">IVOR14_TRAP</EnumItem>
+				<EnumItem Value = "239">IVOR15_TRAP</EnumItem>
+            </EnumNames>			
+            <Function>System | Platform</Function>
+        </Item>
+        <Item Name="ResetReason">
+            <Block>Platform Variable</Block>
+            <Variable>eepage0.resetCause</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1</Gain>
+            <Offset>0.0</Offset>					
+            <Min>0</Min>
+            <Max>255</Max>
+            <Unit>NA</Unit>
+            <Help>The last reset reason.</Help>
+			<Format>4.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <EnumNames>
+				<EnumItem Value = "0">UNKNOWN_RESET</EnumItem>
+				<EnumItem Value = "160">POWER_OFF_RESET</EnumItem>
+				<EnumItem Value = "176">BOOT_REQUEST</EnumItem>
+				<EnumItem Value = "208">PROCESSOR_EXCEPTION</EnumItem>
+				<EnumItem Value = "209">UNHANDLED_EXCPTION</EnumItem>
+				<EnumItem Value = "210">WATCHDOG_EXCPTION</EnumItem>
+				<EnumItem Value = "224">IVOR0_TRAP</EnumItem>
+				<EnumItem Value = "225">MACHINE_CHECK</EnumItem>
+				<EnumItem Value = "226">IVOR2_TRAP</EnumItem>
+				<EnumItem Value = "227">IVOR3_TRAP</EnumItem>
+				<EnumItem Value = "229">IVOR5_TRAP</EnumItem>
+				<EnumItem Value = "230">IVOR6_TRAP</EnumItem>
+				<EnumItem Value = "231">IVOR7_TRAP</EnumItem>
+				<EnumItem Value = "232">IVOR8_TRAP</EnumItem>
+				<EnumItem Value = "233">IVOR9_TRAP</EnumItem>
+				<EnumItem Value = "234">IVOR10_TRAP</EnumItem>
+				<EnumItem Value = "235">IVOR11_TRAP</EnumItem>
+				<EnumItem Value = "236">IVOR12_TRAP</EnumItem>
+				<EnumItem Value = "237">IVOR13_TRAP</EnumItem>
+				<EnumItem Value = "238">IVOR14_TRAP</EnumItem>
+				<EnumItem Value = "239">IVOR15_TRAP</EnumItem>
+            </EnumNames>			
+            <Function>System | Platform</Function>
+        </Item>
+        <Item Name="EEPROM_State">
+            <Block>EEPROM_State</Block>
+            <Variable>RAMVariables.EEPROM_State</Variable>	
+            <Type>Measurement</Type>
+            <NumRows>1</NumRows>
+            <NumCols>1</NumCols>
+            <Gain>1.0</Gain>
+            <Offset>0.0</Offset>					
+            <Min>rtMinusInf</Min>
+            <Max>rtInf</Max>
+            <Unit></Unit>
+            <Help>EEPROM State on startup.</Help>
+			<Format>3.0</Format>
+            <AccessLevel>1</AccessLevel>
+            <ReadOnly>0</ReadOnly>
+            <EnumNames>
+				<EnumItem Value = "0">Initialization</EnumItem>
+				<EnumItem Value = "1">Loaded Defaults - Manual</EnumItem>
+				<EnumItem Value = "2">Loaded Defaults - After Reprogramming</EnumItem>
+				<EnumItem Value = "3">Loaded Defaults - Incorrect CRC</EnumItem>
+				<EnumItem Value = "4">Loaded Defaults - Incorrect EE Format</EnumItem>
+				<EnumItem Value = "5">Loaded Defaults - Error Reading EEPROM</EnumItem>
+				<EnumItem Value = "6">Loaded Defaults - Failed Driver Initialization</EnumItem>
+				<EnumItem Value = "7">Loaded Saved Values - After Reprogramming</EnumItem>
+				<EnumItem Value = "8">Loaded Saved Values - Normal Startup</EnumItem>
+				<EnumItem Value = "9">Loaded Saved Values - Backup Copy</EnumItem>
+				<EnumItem Value = "10">Store In Progess</EnumItem>
+				<EnumItem Value = "11">Store Attempt Failed</EnumItem>
+				<EnumItem Value = "12">Store Succeeded</EnumItem>
+            </EnumNames>			
+            <Function>System</Function>
+        </Item>
+    </Data>
